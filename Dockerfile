@@ -8,7 +8,7 @@ ARG workspace
 ARG shell
 
 # Basic Utilities
-RUN apt-get -y update && apt-get install -y zsh screen tree sudo ssh synaptic
+RUN apt-get -y update && apt-get install -y zsh screen tree sudo ssh synaptic vim
 
 # Latest X11 / mesa GL
 RUN apt-get install -y\
